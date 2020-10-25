@@ -2,7 +2,9 @@ module.exports = {
     name: 'advance01',
     description: "This will help you guide with the bot I'm working on.",
     
-    execute(message, args){const today = new Date().getDay(); // returns a number from 0 to 6 (0=Sunday 1=Monday 2=Tuesday ...)
+    execute(message, args){
+
+      const today = new Date().getDay(); // returns a number from 0 to 6 (0=Sunday 1=Monday 2=Tuesday ...)
 
         switch (today) {
           case 6:
@@ -26,7 +28,7 @@ module.exports = {
           case 2:
             const Discord2 = require("discord.js");   
             const Embed2 = new Discord2.MessageEmbed();
-               Embed2.setDescription("[WIP](https://teams.microsoft.com/l/meetup-join/19%3aedd871e3d8074fbc9ae0683499beedf2%40thread.tacv2/1600325048560?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22a52c9068-71fd-4986-ac08-355d28221afa%22%7d) 9:00-9:30 \n[WIP] (https://teams.microsoft.com/l/meetup-join/19%3aedd871e3d8074fbc9ae0683499beedf2%40thread.tacv2/1600328545505?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22a52c9068-71fd-4986-ac08-355d28221afa%22%7d) \n click the subject to join");
+               Embed2.setDescription("[WIP](https://teams.microsoft.com/l/meetup-join/19%3aedd871e3d8074fbc9ae0683499beedf2%40thread.tacv2/1600325048560?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22a52c9068-71fd-4986-ac08-355d28221afa%22%7d) 9:00-9:30 \n[WIP](https://teams.microsoft.com/l/meetup-join/19%3aedd871e3d8074fbc9ae0683499beedf2%40thread.tacv2/1600328545505?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22a52c9068-71fd-4986-ac08-355d28221afa%22%7d) \n click the subject to join");
                message.channel.send (
                 Embed2);
              
