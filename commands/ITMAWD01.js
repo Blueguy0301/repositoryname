@@ -23,7 +23,7 @@
           const Discord2 = require("discord.js");   
           const Embed2 = new Discord2.MessageEmbed();
              Embed2.setDescription(
-"You have no classes for today" );
+"[literature](https://teams.microsoft.com/l/meetup-join/19%3a0c4897a4f2ec4a339f7a404d3f491e15%40thread.tacv2/1600139647443?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22309f5cec-8987-4ec5-b000-a9446bd7310e%22%7d) 10:30-11:00 \n Click the subject to join" );
                message.channel.send (Embed2);
          
             break;
@@ -40,8 +40,8 @@
             break;
           case 5:
             const Discord4 = require("discord.js");   
-            const Embed4 = new Discord3.MessageEmbed();
-               Embed4.setDescription("[Oral Communication](https://teams.microsoft.com/l/meetup-join/19%3a8f8ccbf106df49d890d4bb6dd8907c1f%40thread.tacv2/1599842310580?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22309f5cec-8987-4ec5-b000-a9446bd7310e%22%7d) 7:30-8:00 \n [Philosophy of Human] (https://teams.microsoft.com/l/team/19%3a89f50d9f30fd487b92b788e5c0ad54a5%40thread.tacv2/conversations?groupId=19ccac2c-d43c-4138-9cda-4fd2ad27b516&tenantId=69587499-a807-43e6-b603-680dc411b8b1) 1030-11:00 \n [literature](https://teams.microsoft.com/l/meetup-join/19%3a0c4897a4f2ec4a339f7a404d3f491e15%40thread.tacv2/1600139647443?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22309f5cec-8987-4ec5-b000-a9446bd7310e%22%7d) TBA \n Click the subject to join");
+            const Embed4 = new Discord4.MessageEmbed();
+               Embed4.setDescription("[Oral Communication](https://teams.microsoft.com/l/meetup-join/19%3a8f8ccbf106df49d890d4bb6dd8907c1f%40thread.tacv2/1599842310580?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22309f5cec-8987-4ec5-b000-a9446bd7310e%22%7d) 7:30-8:00 \n [Philosophy of Human] (https://teams.microsoft.com/l/team/19%3a89f50d9f30fd487b92b788e5c0ad54a5%40thread.tacv2/conversations?groupId=19ccac2c-d43c-4138-9cda-4fd2ad27b516&tenantId=69587499-a807-43e6-b603-680dc411b8b1) 10:30-11:00");
              message.channel.send (
                 Embed4);
             break;
