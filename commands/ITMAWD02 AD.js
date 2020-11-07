@@ -29,24 +29,23 @@ module.exports = {
               'You have no classes for tomorrow.');
         
           break;
-        case 3:
-          const Discord2 = require("discord.js");   
-          const Embed2 = new Discord2.MessageEmbed();
-             Embed2.setDescription("[Computer Programming 1](https://teams.microsoft.com/l/meetup-join/19%3aedd871e3d8074fbc9ae0683499beedf2%40thread.tacv2/1600325048560?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22a52c9068-71fd-4986-ac08-355d28221afa%22%7d) 9:00-9:30 \n[Computer Programming 2](https://teams.microsoft.com/l/meetup-join/19%3aedd871e3d8074fbc9ae0683499beedf2%40thread.tacv2/1600328545505?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22a52c9068-71fd-4986-ac08-355d28221afa%22%7d) 12:00-12:30 \n click the subject to join");
-           message.channel.send (
-              Embed2);
-          break;
-        case 4:
-          const Discord3 = require("discord.js");   
-          const Embed3 = new Discord3.MessageEmbed();
-             Embed3.setDescription("[Oral Communication](https://teams.microsoft.com/l/meetup-join/19%3a8f8ccbf106df49d890d4bb6dd8907c1f%40thread.tacv2/1599842424032?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22309f5cec-8987-4ec5-b000-a9446bd7310e%22%7d) 8:30-9:00 \n [Philosophy of Human](https://teams.microsoft.com/l/team/19%3a89f50d9f30fd487b92b788e5c0ad54a5%40thread.tacv2/conversations?groupId=19ccac2c-d43c-4138-9cda-4fd2ad27b516&tenantId=69587499-a807-43e6-b603-680dc411b8b1)12:00-12:30 \n Click the subject to join");
-           message.channel.send (
-              Embed3);
-          break;
-        case 5:
-           message.channel.send (
-              'You have no classes for today.');
-          break;
+          case 3:
+            const Discord3 = require("discord.js");   
+            const Embed3 = new Discord3.MessageEmbed();
+               Embed3.setDescription("Tomorrow is exam day. Please refer to your assigned schedule [here](https://elms.sti.edu)");   
+          message.channel.send (Embed3);
+            break;
+          case 4:
+            const Discord4 = require("discord.js");   
+            const Embed4 = new Discord4.MessageEmbed();
+               Embed4.setDescription("Tomorrow is exam day. Please refer to your assigned schedule [here](https://elms.sti.edu)");
+             message.channel.send (
+                Embed4);
+            break;
+          case 5:
+             message.channel.send (
+                'Tomorrow is exam day. Please refer to your assigned schedule [here](https://elms.sti.edu)');
+            break;
       }
   }
 }
