@@ -3,7 +3,7 @@ const client  = new Discord.Client();
 const prefix = '111 ';
 
 const fs = require('fs');
-const advance01 = require('./commands/advance01');
+const advance01 = require('./commands/CCTECh AD');
 
 client.commands = new Discord.Collection();
 
