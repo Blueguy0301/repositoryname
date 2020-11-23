@@ -5,18 +5,16 @@ module.exports = {
    execute(message, args){const today = new Date().getDay(); // returns a number from 0 to 6 (0=Sunday 1=Monday 2=Tuesday ...)
 
        switch (today) {
-         case 0:
-            message.channel.send (
-               'You have no classes for today.');
-     
-           break;
-         case 1:
-           const Discord = require("discord.js");   
-           const Embed = new Discord.MessageEmbed();
-              Embed.setDescription("[Media and Information](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjlmNWI0YWUtN2Q0NS00Yjc1LTkzYTktOTIyMDcxY2YzYTBk%40thread.v2/0?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22c8d03572-e09d-4548-bac7-728d73b7ee8a%22%7d) 9:00-9:30 \n [General Math](https://teams.microsoft.com/l/meetup-join/19%3a97bfeca3c30c4faaa960d3e2b4a34259%40thread.tacv2/1600403260293?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22c6f2da9a-4e49-496c-a775-f5290546f2bf%22%7d) 11:30-12:00 \n [Oral Communication](https://teams.microsoft.com/l/meetup-join/19%3a8f8ccbf106df49d890d4bb6dd8907c1f%40thread.tacv2/1599842424032?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22309f5cec-8987-4ec5-b000-a9446bd7310e%22%7d) .2:00 - 3:00 \n Click the subject to join ");
-            message.channel.send (Embed);
-       
-           break;
+        case 0:
+          message.channel.send (
+             'You have no classes for today.');
+   
+         break;
+       case 1:
+         const Discord = require("discord.js");   
+         const Embed = new Discord.MessageEmbed();
+            Embed.setDescription("[Media and Information](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjlmNWI0YWUtN2Q0NS00Yjc1LTkzYTktOTIyMDcxY2YzYTBk%40thread.v2/0?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22c8d03572-e09d-4548-bac7-728d73b7ee8a%22%7d) 9:00-9:30 \n [General Math](https://teams.microsoft.com/l/meetup-join/19%3a97bfeca3c30c4faaa960d3e2b4a34259%40thread.tacv2/1600403260293?context=%7b%22Tid%22%3a%2269587499-a807-43e6-b603-680dc411b8b1%22%2c%22Oid%22%3a%22c6f2da9a-4e49-496c-a775-f5290546f2bf%22%7d) 11:30-12:00 \n Click the subject to join ");
+          message.channel.send (Embed);
          case 2:
            const Discord1 = require("discord.js");   
            const Embed1 = new Discord1.MessageEmbed();
